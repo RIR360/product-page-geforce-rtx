@@ -1,0 +1,11 @@
+:root {
+    --primary: rgb(141, 199, 63);
+    --light: white;
+    --dark: rgb(13, 19, 13);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark);
+}
