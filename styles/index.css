@@ -9,3 +9,7 @@ body {
     padding: 0;
     background-color: var(--dark);
 }
+
+.btn-primary {
+    background-color: var(--primary);
+}
