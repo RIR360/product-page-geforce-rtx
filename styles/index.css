@@ -2,7 +2,7 @@
     --primary: #8dc73f;
     --primary-dark:#518310;
     --light: white;
-    --dark: rgb(13, 19, 13);
+    --dark: #0d130d;
 }
 
 body {
@@ -10,7 +10,6 @@ body {
     padding: 0;
     background-color: var(--dark);
 }
-
 
 .justify-center {
     align-items: center;
