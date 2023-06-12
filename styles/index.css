@@ -1,7 +1,8 @@
 :root {
-    --primary: rgb(141, 199, 63);
+    --primary: #8dc73f;
+    --primary-dark:#518310;
     --light: white;
-    --dark: rgb(13, 19, 13);
+    --dark: #0d130d;
 }
 
 body {
@@ -10,6 +11,29 @@ body {
     background-color: var(--dark);
 }
 
-.btn-primary {
-    background-color: var(--primary);
+.justify-center {
+    align-items: center;
+}
+nav a {
+    position: relative;
+}
+nav a::after {
+    content: '';
+    position: absolute;
+    top: 185%;
+    left: 0;
+    height: 4px;
+    width: 0;
+    background: var(--primary);
+    transition: all 0.3s ease-in;
+}
+nav a:hover::after {
+    width: 100%;
+    top:185%;
+}
+.btn {
+    background: var(--primary);
+}
+.btn:hover {
+    transition: all 0.3s ease;
 }
